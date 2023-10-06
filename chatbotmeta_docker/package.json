@@ -1,0 +1,20 @@
+{
+  "name": "chatbotmeta_docker",
+  "version": "1.0.0",
+  "description": "Chatbot usando libreria de node que facilita creacion del flujo y manejo de contexto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "polka": "^0.5.2",
+    "@bot-whatsapp/bot": "latest",
+    "@bot-whatsapp/cli": "latest",
+    "@bot-whatsapp/database": "latest",
+    "@bot-whatsapp/provider": "latest",
+    "axios": "^1.2.1"
+  },
+  "author": "devf",
+  "license": "ISC"
+}
